@@ -1,39 +1,34 @@
 # AI Fraud Detection
 
-This project is about detecting fraudulent financial transactions using machine learning. I used transaction data and related datasets to build and experiment with a Random Forest model to identify potentially fraudulent transactions.
+A machine learning project focused on identifying fraudulent financial transactions using transaction data and related datasets. This project explores how machine learning can be used to distinguish potentially fraudulent transactions from legitimate ones.
 
-## What this project covers
-- Data preprocessing and feature engineering
-- Exploratory data analysis
-- Random Forest classification
-- Model evaluation
-- Threshold tuning
-- Fraud detection analysis
+## Project
+The project uses a Random Forest classifier and explores different approaches to improve fraud detection while balancing false positives and missed fraud cases.
 
 ## Experiments
-Apart from training the model, I also explored:
-- Class weights
-- Different classification thresholds
-- Alert budget constraints
+- Data analysis and preprocessing
+- Feature engineering
+- Random Forest classification
+- Threshold tuning
+- Class weighting
+- Alert budget analysis
 - Model stability
-- Feature importance
-- SHAP analysis
+- Feature importance and SHAP analysis
 
-## Tools & Libraries
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- SHAP
+## Dataset
+The dataset consists of four CSV files:
 
-## Files
-- `AI_Fraud_Detection.ipynb` – Notebook containing the code, analysis, experiments and results.
-- `data/` – Dataset files used for the project.
+- `transactions.csv`
+- `account_profiles.csv`
+- `network_edges.csv`
+- `time_series_stats.csv`
 
-## How to Run
-1. Clone this repository.
-2. Open the notebook in Google Colab or Jupyter Notebook.
-3. Make sure the dataset files are available.
-4. Run the notebook cells.
+All dataset files are available in the `data/` folder.
+
+## Tech Stack
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, SHAP
+
+## Notebook
+`AI_Fraud_Detection.ipynb` contains the code, experiments, visualizations and evaluation.
+
 
